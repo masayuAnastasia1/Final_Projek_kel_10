@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_signup">
+
+   <ImageView
+       android:id="@+id/kali1"
+       android:layout_width="50dp"
+       android:layout_height="70dp"
+       android:src="@drawable/kali"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Sign Up dengan nomor ponsel"
+        android:layout_below="@id/kali1"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="90dp"/>
+
+    <ImageView
+        android:id="@+id/kamera1"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:src="@drawable/kamera"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/text3"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kamera1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="22dp"
+        android:hint="Masukkan Nama"
+        android:text="Nama:"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edittext4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText3"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="9dp"
+        android:hint="Masukkan Nama Negara"
+        android:text="Negara:" />
+
+    <EditText
+        android:id="@+id/edittext5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/edittext4"
+        android:textColor="@color/black"
+        android:layout_marginTop="9dp"
+        android:inputType="phone"
+        android:digits="0123456789+-()"
+        android:hint="Masukkan Nomor Telepon"
+        android:text="Ponsel:"/>
+
+    <EditText
+        android:id="@+id/edittext6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/edittext5"
+        android:layout_marginTop="9dp"
+        android:textColor="@color/black"
+        android:hint="Masukkan Sandi"
+        android:text="Sandi:"/>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext6"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Saya telah membaca dan menerima WeChat ketentuan layanan"
+        android:textColor="@color/Gainsboro"
+        android:textSize="14sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informasi yang dikumpulkan di halaman ini hanya digunakan untuk pendaftaran akun."
+        android:layout_below="@id/checkBox1"
+        android:textColor="@color/Gainsboro"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terima dan Lanjutkan"
+        android:layout_below="@id/checkBox1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/greenlime"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="perak">#e9e9e9</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Gainsboro">#DCDCDC</color>
+    <color name="lime">#FF00FF00</color>
+    <color name="greenlime">#FF32CD32</color>
+    <color name="LightBlue">#ADD8E6</color>
+    <color name="Blue">#467FA8</color>
+</resources>

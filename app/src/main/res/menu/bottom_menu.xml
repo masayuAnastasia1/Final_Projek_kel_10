@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_1"
+        android:title="Bantuan"
+        android:icon="@drawable/help1"/>
+
+    <item
+        android:id="@+id/menu_item_2"
+        android:title="Tentang Saya"
+        android:icon="@drawable/people2"/>
+
+    <item
+        android:id="@+id/menu_item_3"
+        android:title="Keluar"
+        android:icon="@drawable/exit3"/>
+</menu>
